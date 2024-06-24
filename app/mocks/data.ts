@@ -3,7 +3,7 @@ import invariant from "tiny-invariant";
 
 type MovieMutation = {
     id?: string;
-    title?: string;
+    title: string;
 }
 
 export type MovieRecord = MovieMutation & {
